@@ -80,7 +80,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
             document.getElementById("contact-form").reset();
             button.style.backgroundColor = "#353535";
             button.innerHTML = "Send";
-          }, 5000);
+          }, 6000);
       })
       .catch(error => {
         console.log(error);
@@ -91,7 +91,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
             document.getElementById("contact-form").reset();
             button.style.backgroundColor = "#353535";
             button.innerHTML = "Send";
-          }, 5000);
+          }, 6000);
       });
   });
 

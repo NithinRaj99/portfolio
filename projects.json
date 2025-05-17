@@ -1,0 +1,20 @@
+[
+
+    {
+      "serial": 1,
+      "title": "Country Explorer",
+      "description": "View country details.",
+      "image": "assets/images/projects/pro-1.jpg",
+      "moreInfo": "#",
+      "livePreview": "https://knowmycountry.netlify.app/"
+    },
+    {
+        "serial": 2,
+        "title": "FloraWise AI Plant Identifier",
+        "description": "View country details.",
+        "image": "assets/images/projects/pro-2.jpg",
+        "moreInfo": "#",
+        "livePreview": "https://florawise.netlify.app/"
+      }
+  ]
+  

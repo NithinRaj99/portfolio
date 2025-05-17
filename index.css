@@ -15,7 +15,6 @@ background: radial-gradient(circle, rgba(0,0,0,1) 30%, rgb(27, 27, 27) 98%);
 }
 
 section {
-    padding-bottom: 4rem;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -274,10 +273,10 @@ section {
 
 
 /* about css properties */
-.about {
-    padding-top: 6rem ;
+/* .about {
 
-}
+
+} */
 
 .about-me {
     width: 90%;
@@ -417,12 +416,12 @@ section {
 
 /* project css properties */
 
-.project {
+/* .project {
 padding-top: 6rem;
-    /* min-height: 30rem;
-    max-height: 50rem; */
+    min-height: 30rem;
+    max-height: 50rem; 
 
-}
+} */
 
 .project-content {
     width: 80%;
@@ -431,7 +430,6 @@ padding-top: 6rem;
 }
 
 .project-title {
-    display: inline-block;
     margin: 0px;
     margin-bottom: 3rem;
 }
@@ -448,8 +446,7 @@ padding-top: 6rem;
 }
 
 .project-title-info {
-    display: flex;
-    flex-wrap: wrap;
+
     text-align: center;
 }
 
@@ -462,6 +459,8 @@ padding-top: 6rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    justify-self: center;
+    align-self: center;
 }
 
 .project-detail-full {
@@ -526,7 +525,6 @@ padding-top: 6rem;
 .view-more{
     position: relative;
     margin-top: 3rem;
-    left: 45px;
     display: inline-flex;
     justify-content: center;
     
@@ -587,7 +585,7 @@ padding-top: 6rem;
 .contact-form input[type="text"],
 .contact-form input[type="email"] {
     width: 50%;
-    padding: 15px 0;
+    padding: 15px 12px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -604,6 +602,7 @@ padding-top: 6rem;
     border-radius: 5px;
     background-color: #353535;
     border: 1px solid #ccc;
+    padding: 12px;
 }
 
 
@@ -611,7 +610,8 @@ padding-top: 6rem;
 .contact-form input[type="email"]::placeholder,
 .contact-form textarea::placeholder{
     color: #fff;
-    padding-left: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
     padding-top: 10px;
     font-size: 20px;
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -630,16 +630,16 @@ padding-top: 6rem;
 /* Styling for the submit button */
 .submit_button {
     display:inline-flex;
-    height: 4rem;
+    height: 3rem;
     gap:10px;
     justify-content: center;    
-    width: 40%;
+    width: 16%;
     margin-top: 2rem;
     padding: 15px;
     padding-top: 16px;
     background-color: #353535;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     border: none;
     border-radius: 10px;
     cursor: pointer;

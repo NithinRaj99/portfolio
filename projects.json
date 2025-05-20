@@ -11,10 +11,18 @@
     {
         "serial": 2,
         "title": "FloraWise AI Plant Identifier",
-        "description": "View country details.",
+        "description": "AI Plant Identifier",
         "image": "assets/images/projects/pro-2.jpg",
         "moreInfo": "#",
         "livePreview": "https://florawise.netlify.app/"
+      },
+      {
+        "serial": 3,
+        "title": "Paletto",
+        "description": "A simple and elegant color palette generator.",
+        "image": "assets/images/projects/pro-3.jpg",
+        "moreInfo": "#",
+        "livePreview": "https://palettoo.netlify.app/"
       }
   ]
   
